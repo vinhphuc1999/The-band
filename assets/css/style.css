@@ -23,6 +23,13 @@ html {
 4. Kiểu dáng (Kiểu chữ, hình tròn, vuông, ... 
 */
 
+/*Kích thước Media Queri
+DIEM CHUYEN TU CAC MAN HINH GOI LA BREAK POINT
+1. PC >= 1024px
+2. Tablet >= 740px && < 1024px
+3. Mobile < 740px
+*/
+
 /*Common*/
 
 .clear {
@@ -108,6 +115,7 @@ html {
     left: 0;
     right: 0;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav {
@@ -169,18 +177,19 @@ html {
     line-height: 46.5px;
 }
 
-#header .search-icon {
+#header .search-icon, #header .menu-icon {
     color: #fff;
     font-size: 20px;
     line-height: 46.5px;
     padding: 0 24px;
 }
 
-#header .search-btn {
+#header mobile-menu-btn, #header .search-btn {
     float: right;
+    padding: 0 21px;
 }
 
-#header .search-btn:hover {
+#header mobile-menu-btn:hover, #header .search-btn:hover {
     color: #fff;
     background-color: #f44336;
     cursor: pointer;
@@ -224,9 +233,12 @@ html {
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0px 112px;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
 #content .content-section .section-heading {
