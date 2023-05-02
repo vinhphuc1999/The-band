@@ -190,7 +190,7 @@ html {
     position: relative;
     margin-top: 46.5px;
     padding-top: 50%;
-    background: url('/Users/macbook/Workspace/w3school-band/assets/img/slider/image_1.jpeg') top center / cover no-repeat;
+    background: url("https://www.w3schools.com/w3images/ny.jpg") top center / cover no-repeat;
  }
 
 #slider .text-content {
