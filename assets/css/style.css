@@ -6,7 +6,7 @@
 }
 
 html {
-  font-family: "Segoe UI",Arial,sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -57,8 +57,8 @@ DIEM CHUYEN TU CAC MAN HINH GOI LA BREAK POINT
 }
 
 .mt-32 {
-    margin-top: 32px;
-  }
+  margin-top: 32px;
+}
 
 .row {
   margin-left: -8px;
@@ -98,6 +98,8 @@ DIEM CHUYEN TU CAC MAN HINH GOI LA BREAK POINT
   display: inline-block;
   border: none;
   text-align: center;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -138,7 +140,7 @@ DIEM CHUYEN TU CAC MAN HINH GOI LA BREAK POINT
 }
 
 #nav li:hover {
-    background-color:#0099FF;
+  background-color: #0099ff;
 }
 
 #nav > li > a {
@@ -246,6 +248,7 @@ DIEM CHUYEN TU CAC MAN HINH GOI LA BREAK POINT
 #slider .text-description {
   font-size: 15px;
   margin-top: 25px;
+  text-shadow: 0 0 1px #000;
 }
 
 #content {
@@ -419,7 +422,7 @@ DIEM CHUYEN TU CAC MAN HINH GOI LA BREAK POINT
 }
 
 .modal-close:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .modal-body {
@@ -486,6 +489,15 @@ DIEM CHUYEN TU CAC MAN HINH GOI LA BREAK POINT
 .contact-info {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.contact-info a {
+  color: #1800ee;
+  opacity: 0.8;
+}
+
+.contact-info a:hover {
+  opacity: 1;
 }
 
 .contact-info i[class*="ti-"] {
