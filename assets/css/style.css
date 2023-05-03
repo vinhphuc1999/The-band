@@ -184,15 +184,27 @@ DIEM CHUYEN TU CAC MAN HINH GOI LA BREAK POINT
     padding: 0 24px;
 }
 
-#header mobile-menu-btn, #header .search-btn {
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#header .mobile-menu-btn, #header .search-btn {
     float: right;
     padding: 0 21px;
 }
 
-#header mobile-menu-btn:hover, #header .search-btn:hover {
+#header .search-btn:hover {
     color: #fff;
     background-color: #f44336;
     cursor: pointer;
+}
+
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+    color: #000;
 }
 
 #slider {
