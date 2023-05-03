@@ -123,7 +123,9 @@
                   <p class="place-desc">
                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                   </p>
-                  <button class="btn js-buy-ticket s-full-width">Buy Tickets</button>
+                  <button class="btn js-buy-ticket s-full-width">
+                    Buy Tickets
+                  </button>
                 </div>
               </div>
               <div class="mt-16 s-col-ful col col-third">
@@ -246,24 +248,28 @@
           Tickets
         </header>
         <div class="modal-body">
-          <lable for="ticket-quantity" class="modal-lable"
-            ><i class="ti-shopping-cart"></i>Tickets, $15 per person</lable
-          >
-          <input
-            id="ticket-quantity"
-            type="text"
-            class="modal-input"
-            placeholder="How many?"
-          />
-          <lable for="ticket-email" class="modal-lable"
-            ><i class="ti-user"></i>Send To</lable
-          >
-          <input
-            id="ticket-email"
-            type="text"
-            class="modal-input"
-            placeholder="Enter email"
-          />
+          <form action="">
+            <lable for="ticket-quantity" class="modal-lable"
+              ><i class="ti-shopping-cart"></i> Tickets, $15 per person</lable
+            >
+            <input
+              type="text"
+              id="ticket-quantity"
+              name="ticket-quantity"
+              class="modal-input"
+              placeholder="How many?"
+            />
+            <lable for="ticket-email" class="modal-lable"
+              ><i class="ti-user"></i> Send To</lable
+            >
+            <input
+              type="text"
+              id="ticket-email"
+              name="ticket-email"
+              class="modal-input"
+              placeholder="Enter email"
+            />
+          </form>
           <button id="buy-tickets">PAY <i class="ti-check"></i></button>
         </div>
         <footer class="model-footer">Need <a href="#">help?</a></footer>

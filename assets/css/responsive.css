@@ -12,6 +12,13 @@
     }
 } */
 
+/* Responsive Tablet and Mobile */
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+}
+
 /* Responsive Mobile */
 @media (max-width: 739px) {
   .s-full-width,
